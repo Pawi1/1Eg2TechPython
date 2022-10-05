@@ -56,3 +56,35 @@ print("Wpisz liczbe b:")
 input_b = int(input())
 print("Wpisz liczbe c:")
 input_c = int(input())
+
+if (input_a < input_c and input_b > input_c) or (input_b < input_c and input_a > input_c):
+  print("Mieści się")   
+else: 
+  print("Nie mieści")
+
+# Zadanie 6
+
+print ("Zadanie 6: Program, który sprawdzi, czy liczba pierwsza p spełnia Małe Twierdzenie Fermata. Stosujemy wersję MTF w formie: ”Jeśli p jest pierwsza to dla każdego a liczba a^p − a jest podzielna przez p”.")
+print("Podaj dowolną liczbę:")
+input_a = int(input())
+print("Podaj liczbę pierwszą:")
+input_p = int(input())
+if (input_a ^ input_p - input_a ) % input_p == 0:
+    print("Spełnia")
+else:
+    print("Nie spełnia")
+    
+# Zadanie 7
+
+print ("Zadanie 7: Bajtożabka osiowa oddaje tylko równe skoki o długości s wzdłuż osi. Napisz algorytm, który sprawdzi, czy żabka pokona zadany dystans w trzech skokach. Jako punkt startu przyjmujemy wartość p, a jako punkt końcowy punkt k, gdzie p, k, s >= 0")
+print("Podaj długość skoku:")
+input_s = int(input())
+print("Podaj punkt startu:")
+input_p = int(input())
+print("Podaj punkt końcowy:")
+input_k = int(input())
+
+if 3*input_s + input_p>= input_k:
+    print("Tak")
+else:
+    print("NIE")
