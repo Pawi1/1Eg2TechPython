@@ -20,8 +20,8 @@ for i in range(15,32,+2): print(i, end=" ")
 print()
 # Zadanie 3
 print("Zadanie 3 Pętla liczb dwucyfrowych malejąco")
-for i in range(99,9,-1): print(i, end=" ")
+for i in range(99,10,-1): print(i, end=" ")
 print()
 # Zadanie 4
 print("Zadanie 4 Pętla liczb 3-cyfrowych podzielnych przez 20")
-for i in range(20,999,+20): print(i, end=" ")
+for i in range(100,1000,+20): print(i, end=" ")
